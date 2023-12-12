@@ -2,6 +2,7 @@ import React from "react";
 import "./home.scss";
 import VIDEO from "../../assets/landing-page-480p.mp4";
 import LOGO from "../../assets/logo.png";
+import Portfolio from "../Portfolio/Portfolio";
 const Home = () => {
   return (
     <>
@@ -33,6 +34,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <Portfolio />
     </>
   );
 };

@@ -11,13 +11,13 @@ const Btf = () => {
 
   return (
     <>
-      <Sidebar>
-        <div className="root__window">
-          {location.pathname !== "/" && <Header />}
-          <Outlet />
-          <Footer />
-        </div>
-      </Sidebar>
+      <Sidebar />
+      <div className="root__window">
+        {location.pathname !== "/" && <Header />}
+        <Outlet />
+        <Footer />
+      </div>
+      {/* </Sidebar> */}
     </>
   );
 };

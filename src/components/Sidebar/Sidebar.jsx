@@ -79,7 +79,7 @@ const Sidebar = ({ children }) => {
             </ul>
           </div>
         </nav>
-        <main>{children}</main>
+        {/* <main>{children}</main> */}
       </div>
     </>
   );
