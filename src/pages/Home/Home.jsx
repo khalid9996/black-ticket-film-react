@@ -13,7 +13,14 @@ const Home = () => {
 
         <div class="home__landing__content">
           <div class="home__landing__content__inner">
-            <img src={LOGO} alt="logo" />
+            <img
+              src={
+                LOGO
+                  ? LOGO
+                  : "https://www.blackticketfilms.com/wp-content/themes/btf/images/logo.png"
+              }
+              alt="logo"
+            />
             <div class="home__landing__content__inner__container">
               <h1>WE TELL STORIES</h1>
 

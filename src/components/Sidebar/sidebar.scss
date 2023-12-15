@@ -237,7 +237,7 @@ html {
 }
 
 .input-toggler {
-  position: absolute;
+  position: fixed;
   left: -100%;
 
   &:focus ~ .menu-toggler {

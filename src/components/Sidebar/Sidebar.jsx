@@ -35,7 +35,14 @@ const Sidebar = ({ children }) => {
         >
           <div className="sidebar__content__div">
             <div className="logo__container">
-              <img src={LOGO} alt="logo" />
+              <img
+                src={
+                  LOGO
+                    ? LOGO
+                    : "https://www.blackticketfilms.com/wp-content/themes/btf/images/logo.png"
+                }
+                alt="logo"
+              />
             </div>
             <span className="seperator"></span>
 
