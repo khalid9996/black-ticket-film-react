@@ -13,7 +13,7 @@ const Btf = () => {
     <>
       <Sidebar />
       <div className="root__window">
-        {location.pathname !== "/" && <Header />}
+        {location.pathname !== "/" && <Header title={location.pathname} />}
         <Outlet />
         <Footer />
       </div>
